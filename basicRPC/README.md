@@ -5,13 +5,17 @@ Demonstartes a simple RPC client that connects to a server and performs CRUD ope
 **output**
 
 ```bash
-$go run main.go
+$ go run main.go
 Serving on port 4040
 ```
 
 client
 
 ```bash
+$ go run main.go
 
+Database [{first A first item} {second A second item} {third A third item}]
+Database [{first A first item} {second A new second item} {third A third item}]
+Reply {first A first item}
 
 ```

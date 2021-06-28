@@ -29,7 +29,7 @@ func main() {
 	client.Call("API.AddItem", b, &reply)
 	client.Call("API.AddItem", c, &reply)
 
-	client.Call("API.GetDB", c, &db)
+	client.Call("API.GetDB", "", &db)
 
 	fmt.Println("Database", db)
 
